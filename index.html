@@ -18,5 +18,45 @@
     <br>
     <br>
     <p>Let's do this!</p>
+    <div class="logo">
+        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="">
+    </div>
+    <form action="#">
+        <div class="form left">
+            <p class="form-title">Let's do this!</p>
+            <div class="input">
+                <label for="first-name">First name</label>
+                <input type="text" name="first-name" id="first-name" required>
+            </div>
+            
+            <div class="input">
+                <label for="last-name">Last name</label>
+                <input type="text" name="last-name" id="last-name">
+            </div>
+            
+            <div class="input">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            
+            <div class="input">
+                <label for="phone-number">Phone number</label>
+                <input type="text" name="phone-number" id="phone-number" minlength="9" maxlength="9">
+            </div>
+            
+            <div class="input">
+                <label for="password">Password</label>
+                <input type="password" name="passwor" id="passwor" required>
+            </div>
+            
+            <div class="input">
+                <label for="confirm-password">Confirm password</label>
+                <input type="password" name="confirm-password" id="confirm-password" required>
+            </div>
+        </div>
+        <div class="left button"><button type="submit">Create Account</button></div>
+    </form>
+    <div class="log-in left"><p>Already have an account?</p><a href="#">Log in</a></div>
+</div>
 </body>
 </html>
